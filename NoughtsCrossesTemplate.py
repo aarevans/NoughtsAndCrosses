@@ -1,6 +1,3 @@
-board = [["[ ]","[ ]","[ ]"],["[ ]","[ ]","[ ]"],["[ ]","[ ]","[ ]"]]
-win = False
-
 def DisplayBoard():#display the board whenever needed by calling this function.
     for row in board:
         print(row[0],row[1],row[2])
@@ -106,6 +103,8 @@ def WinCheck():
                 draw = False
     return win,draw
 
+board = [["[ ]","[ ]","[ ]"],["[ ]","[ ]","[ ]"],["[ ]","[ ]","[ ]"]]
+win = False
 
 #main    
 print("Welcome to Noughts and Crosses")
